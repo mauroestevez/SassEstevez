@@ -4,3 +4,22 @@ header {
     text-align: center; }
     header nav a {
       font-family: Georgia, 'Times New Roman', Times, serif; }
+      header nav a:hover {
+        color: aqua; }
+
+main {
+  margin: 50px; }
+  main section {
+    background-color: blanchedalmond; }
+    main section h1 {
+      font-size: xx-large;
+      color: brown; }
+    main section p {
+      text-align: justify;
+      color: brown; }
+
+footer {
+  margin: 100px; }
+  footer p {
+    text-align: left;
+    color: black; }
