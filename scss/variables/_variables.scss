@@ -1,2 +1,14 @@
 $tamaño: 500px;
 $color: brown;
+$fondo-ancla: black;
+
+$estilos: (
+    color: brown,
+    text-align: left,
+);
+
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+}
+

@@ -8,14 +8,15 @@ main{
         background-color: blanchedalmond;
         h1{
             font-size: xx-large;
-            color: $color;
+            color: map-get($estilos, color);
         }
-        img{
-            width: $tamaño;
+        .tamaño-foto{
+            margin: 30px;
+            @include sizes(600px, 500px);
         }
         p{
             text-align: justify;
-            color: $color;
+            color: map-get($estilos, color);
         }
     }
 

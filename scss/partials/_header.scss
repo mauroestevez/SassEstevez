@@ -1,13 +1,23 @@
 // Hacemos el nesting y utilizamos el selector "&" dentro del codigo
+@import "../variables/variables";
+
 header{
     background-color: blueviolet;
+    height: 100px;
     nav{
         text-align: center;
-        a{
+        .ancla{
+            padding: 3px;
+            background-color: $fondo-ancla;
+            text-decoration: none;
             font-family: Georgia, 'Times New Roman', Times, serif;
             &:hover{
                 color: aqua;
             }
+        }
+        .ancla-inicio{
+            @extend .ancla;
+            font-size: 30px;
         }
     }
 }

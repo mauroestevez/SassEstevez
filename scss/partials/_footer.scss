@@ -1,8 +1,10 @@
 // Hacemos el nesting del codigo para el footer
+@import "../variables/variables";
+
 footer{
     margin: 100px;
     p{
-        text-align: left;
+        text-align: map-get($estilos, text-align);
         color: black;
     }
 }

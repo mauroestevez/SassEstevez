@@ -6,10 +6,11 @@ main{
         background-color: blanchedalmond;
         h1{
             font-size: xx-large;
-            color: $color;
+            color: map-get($estilos, color);
         }
-        iframe{
-            width: $tamaño;
+        .tamaño-iframe{
+            margin: 20px;
+            @include sizes(1200px, 500px);
         }
     }
 
