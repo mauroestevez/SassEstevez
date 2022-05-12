@@ -14,9 +14,29 @@ main {
     main section h1 {
       font-size: xx-large;
       color: brown; }
+    main section img {
+      width: 500px; }
     main section p {
       text-align: justify;
       color: brown; }
+
+main {
+  margin: 50px; }
+  main section {
+    background-color: blanchedalmond; }
+    main section h1 {
+      font-size: xx-large;
+      color: brown; }
+
+main {
+  margin: 50px; }
+  main section {
+    background-color: blanchedalmond; }
+    main section h1 {
+      font-size: xx-large;
+      color: brown; }
+    main section iframe {
+      width: 500px; }
 
 footer {
   margin: 100px; }

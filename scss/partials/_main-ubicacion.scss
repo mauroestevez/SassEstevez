@@ -1,0 +1,16 @@
+@import "../variables/variables";
+
+main{
+    margin: 50px;
+    section{
+        background-color: blanchedalmond;
+        h1{
+            font-size: xx-large;
+            color: $color;
+        }
+        iframe{
+            width: $tamaño;
+        }
+    }
+
+}

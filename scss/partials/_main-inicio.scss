@@ -1,6 +1,6 @@
 // Hacemos el nesting y creamos una variable para el color
 
-$color: brown;
+@import "../variables/variables";
 
 main{
     margin: 50px;
@@ -9,6 +9,9 @@ main{
         h1{
             font-size: xx-large;
             color: $color;
+        }
+        img{
+            width: $tamaño;
         }
         p{
             text-align: justify;
